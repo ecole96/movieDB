@@ -1,0 +1,88 @@
+body
+{
+	background-color:#464646;
+	font-family:arial;
+	color:#f6f6f6;
+}
+
+h3 {color:#dd3;}
+
+.navBar ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34495E;
+}
+
+.navBar li {
+float: left;
+}	
+
+.navBar li a {
+	font-family: arial;
+    display: block;
+    color: #f6f6f6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBar li a:hover {
+    background-color: #111;
+}
+
+.navBar .home
+{
+	float:left;
+	font-size:30px;
+}
+
+.navBar .others
+{
+	float:right;
+}
+
+.searchBar input[type='search']{
+			border: none;
+			padding: 10px;
+			margin: 10px;
+			height: 36px;
+			width: 500px;
+			border:1px solid #eaeaea;
+			outline:none;
+			font-size:14px;
+			}
+			
+.searchBarinput:hover{
+border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.searchBar input:focus{
+border-color:#4d90fe;
+}
+
+.searchBar button[type='submit'] {
+border-radius: 2px;
+background: #f2f2f2;
+border: 1px solid #f2f2f2;
+color: #757575;
+cursor: default;
+font-size: 14px;
+font-weight: bold;
+width: 100px;
+padding: 0 16px;
+height:36px;
+}
+.searchBar button[type='submit']:hover {
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+background: #f8f8f8;
+border: 1px solid #c6c6c6; 
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+color: #222;}
+
+.searchBar a:visited {color: white;}
+.searchBar a:hover { text-decoration: none; color:gray}
+
+a {color:white;}
